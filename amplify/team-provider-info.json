@@ -1,0 +1,20 @@
+{
+    "prod": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-url-shortener-prod-161022-authRole",
+            "UnauthRoleArn": "arn:aws:iam::470983924752:role/amplify-url-shortener-prod-161022-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::470983924752:role/amplify-url-shortener-prod-161022-authRole",
+            "Region": "eu-west-1",
+            "DeploymentBucketName": "amplify-url-shortener-prod-161022-deployment",
+            "UnauthRoleName": "amplify-url-shortener-prod-161022-unauthRole",
+            "StackName": "amplify-url-shortener-prod-161022",
+            "StackId": "arn:aws:cloudformation:eu-west-1:470983924752:stack/amplify-url-shortener-prod-161022/68458730-7b3d-11ea-904e-0226385840dc",
+            "AmplifyAppId": "d31neylyranouf"
+        },
+        "categories": {
+            "auth": {
+                "cognito6b187a82": {}
+            }
+        }
+    }
+}

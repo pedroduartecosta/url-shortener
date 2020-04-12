@@ -1,0 +1,5 @@
+{
+    "tableName": "shorturls",
+    "partitionKeyName": "code",
+    "partitionKeyType": "S"
+}

@@ -1,0 +1,44 @@
+{
+    "paths": [
+        {
+            "name": "/urls",
+            "lambdaFunction": "urlshortener7fe3c76f",
+            "privacy": {
+                "protected": true,
+                "auth": [
+                    "/POST",
+                    "/GET",
+                    "/PUT",
+                    "/PATCH",
+                    "/DELETE"
+                ],
+                "unauth": [
+                    "/GET"
+                ]
+            }
+        }
+    ],
+    "resourceName": "api5ba9c4bf",
+    "apiName": "api5ba9c4bf",
+    "functionArns": [
+        {
+            "lambdaFunction": "urlshortener7fe3c76f"
+        }
+    ],
+    "privacy": {
+        "auth": 1,
+        "unauth": 1,
+        "authRoleName": "amplify-url-shortener-prod-161022-authRole",
+        "unAuthRoleName": "amplify-url-shortener-prod-161022-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "urlshortener7fe3c76f",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
